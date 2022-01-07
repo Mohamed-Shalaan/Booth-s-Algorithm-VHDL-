@@ -1,4 +1,4 @@
-# Booth-s-Algorithm-VHDL
+# Booth-Algorithm-VHDL
 
 This Project Is Presented to : Dr. Khaled El-shafei 
 
