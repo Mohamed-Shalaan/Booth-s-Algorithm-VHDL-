@@ -56,7 +56,7 @@ Let m and r be the multiplicand and multiplier, respectively; and let x and y re
 
 ## Flowchart Graph
 
-
+![booths-multiplication-algorithm-in-coa](https://user-images.githubusercontent.com/76535950/148575611-d9195c5f-bbcc-4163-b8ed-3966134017d8.png)
 
 
 ## Coding Language
