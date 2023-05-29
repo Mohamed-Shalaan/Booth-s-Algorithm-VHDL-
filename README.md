@@ -28,7 +28,7 @@ Let m and r be the multiplicand and multiplier, respectively; and let x and y re
 
 
 
-</p>
+
  <b>1.	Determine the values of A and S, and the initial value of P. All of these numbers should have a length equal to (x + y + 1).</b></br>
   <sub>   
        -	A: Fill the most significant(leftmost)bits with the value of m. Fill the remaining (y + 1) bits with zeros.
@@ -37,7 +37,6 @@ Let m and r be the multiplicand and multiplier, respectively; and let x and y re
     
        -	P: Fill the most significant x bits with zeros. To the right of this, append the value of r.Fill the least significant(rightmost)bit with a zero.
     <sub>
-</p>
 
   
 2.	Determine the two least significant (rightmost) bits of P.
