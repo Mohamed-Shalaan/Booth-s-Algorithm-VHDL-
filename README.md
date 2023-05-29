@@ -36,7 +36,7 @@ Let m and r be the multiplicand and multiplier, respectively; and let x and y re
        -	S: Fill the most significant bits with the value of (−m) in two's complement notation. Fill the remaining (y + 1) bits with zeros.
     
        -	P: Fill the most significant x bits with zeros. To the right of this, append the value of r.Fill the least significant(rightmost)bit with a zero.
-    <sub>
+  <sub>
 
   
 2.	Determine the two least significant (rightmost) bits of P.
