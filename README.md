@@ -61,5 +61,6 @@ If they are 11, do nothing. Use P directly in the next step.
 
 ## ➤ Coding Language & Tools
 
+ <img src="./Altera.png" />
 <h4> VHDL on Altera Quartus 13.1 </h4>
 
