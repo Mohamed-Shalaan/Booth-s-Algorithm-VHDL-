@@ -35,10 +35,10 @@ P: Fill the most significant x bits with zeros. To the right of this, append the
 
 <b>2.	Determine the two least significant (rightmost) bits of P.</b></br>  
 <pre>
--	If they are 01, find the value of P + A. Ignore any overflow.
--	If they are 10, find the value of P + S. Ignore any overflow.
--	If they are 00, do nothing. Use P directly in the next step.
--	If they are 11, do nothing. Use P directly in the next step.
+If they are 01, find the value of P + A. Ignore any overflow.
+If they are 10, find the value of P + S. Ignore any overflow.
+If they are 00, do nothing. Use P directly in the next step.
+If they are 11, do nothing. Use P directly in the next step.
 </pre> 
 
 <b>3.	Arithmetically shift the value obtained in the 2nd step by a single place to the right. Let P now equal this new value.</b></br>  
@@ -46,6 +46,8 @@ P: Fill the most significant x bits with zeros. To the right of this, append the
 <b>5.	Drop the least significant (rightmost) bit from P. This is the product of m and r.</b></br>  
 
 </p>
+
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#graph)
 
