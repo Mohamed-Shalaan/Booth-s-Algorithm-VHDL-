@@ -61,5 +61,5 @@ If they are 11, do nothing. Use P directly in the next step.
 
 ## ➤ Coding Language & Tools
 
-<h2 align="center"> VHDL on Altera Quartus 13.1 </h2>
+<h3 > VHDL on Altera Quartus 13.1 </h3>
 
