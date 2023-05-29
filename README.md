@@ -26,24 +26,22 @@ can be treated as 2^(k+1 ) to 2^m.
 one of two predetermined values A and S to a product P, then performing a rightward arithmetic shift on P.
 Let m and r be the multiplicand and multiplier, respectively; and let x and y represent the number of bits in m and r..</h4>
 
-  <b>1.	Determine the values of A and S, and the initial value of P. All of these numbers should have a length equal to (x + y + 1).</b></br>
-  
- -	A: Fill the most significant(leftmost)bits with the value of m. Fill the remaining (y + 1) bits with zeros. 
- -	S: Fill the most significant bits with the value of (−m) in two's complement notation. Fill the remaining (y + 1) bits with zeros.  
- -	P: Fill the most significant x bits with zeros. To the right of this, append the value of r.Fill the least significant(rightmost)bit with a zero.
- chip.
+ <b>1.	Determine the values of A and S, and the initial value of P. All of these numbers should have a length equal to (x + y + 1).</b></br>
+ <pre>  
+ -	A: Fill the most significant(leftmost)bits with the value of m.
+      Fill the remaining (y + 1) bits with zeros. 
+ -	S: Fill the most significant bits with the value of (−m) in two's complement notation.
+      Fill the remaining (y + 1) bits with zeros.  
+ -	P: Fill the most significant x bits with zeros. To the right of this, append the value of r.
+     Fill the least significant(rightmost)bit with a zero.
+</pre> 
 
 
- 
+
 </p>
 
- 
- <pre>
- -	A: Fill the most significant(leftmost)bits with the value of m. Fill the remaining (y + 1) bits with zeros. 
- -	S: Fill the most significant bits with the value of (−m) in two's complement notation. Fill the remaining (y + 1) bits with zeros.  
- -	P: Fill the most significant x bits with zeros. To the right of this, append the value of r.Fill the least significant(rightmost)bit with a zero.
- chip.
-</pre>
+
+
   
 2.	Determine the two least significant (rightmost) bits of P.
 
