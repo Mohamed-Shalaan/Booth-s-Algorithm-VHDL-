@@ -28,11 +28,11 @@ Let m and r be the multiplicand and multiplier, respectively; and let x and y re
 
  <b>1.	Determine the values of A and S, and the initial value of P. All of these numbers should have a length equal to (x + y + 1).</b></br>
  <pre>  
- -	A: Fill the most significant(leftmost)bits with the value of m.
+A: Fill the most significant(leftmost)bits with the value of m.
       Fill the remaining (y + 1) bits with zeros. 
- -	S: Fill the most significant bits with the value of (−m) in two's complement notation.
+S: Fill the most significant bits with the value of (−m) in two's complement notation.
       Fill the remaining (y + 1) bits with zeros.  
- -	P: Fill the most significant x bits with zeros. To the right of this, append the value of r.
+P: Fill the most significant x bits with zeros. To the right of this, append the value of r.
      Fill the least significant(rightmost)bit with a zero.
 </pre> 
 
