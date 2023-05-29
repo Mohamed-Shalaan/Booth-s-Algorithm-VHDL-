@@ -36,7 +36,14 @@ Let m and r be the multiplicand and multiplier, respectively; and let x and y re
  
 </p>
 
-
+ 
+ <pre>Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+</pre>
   
 2.	Determine the two least significant (rightmost) bits of P.
 
