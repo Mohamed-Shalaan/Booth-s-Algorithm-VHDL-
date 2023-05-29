@@ -30,7 +30,8 @@ Let m and r be the multiplicand and multiplier, respectively; and let x and y re
 <pre>
 A: Fill the most significant(leftmost)bits with the value of m.Fill the remaining (y + 1) bits with zeros. 
 S: Fill the most significant bits with the value of (−m) in two's complement notation.Fill the remaining (y + 1) bits with zeros.  
-P: Fill the most significant x bits with zeros. To the right of this, append the value of r. Fill the least significant(rightmost)bit with a zero.
+P: Fill the most significant x bits with zeros. To the right of this, append the value of r.
+Fill the least significant(rightmost)bit with a zero.
 </pre> 
 
 <b>2.	Determine the two least significant (rightmost) bits of P.</b></br>  
@@ -53,8 +54,12 @@ If they are 11, do nothing. Use P directly in the next step.
 
 ## ➤ Flowchart Graph
 
-![booths-multiplication-algorithm-in-coa](https://user-images.githubusercontent.com/76535950/148575611-d9195c5f-bbcc-4163-b8ed-3966134017d8.png)
+ <img src="./flowchart.PNG" />
 
 
-## Coding Language & Tools
-VHDL on Altera Quartus 13.1
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#tools)
+
+## ➤ Coding Language & Tools
+
+<h2 align="center"> VHDL on Altera Quartus 13.1 </h2>
+
